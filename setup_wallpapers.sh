@@ -32,6 +32,8 @@ get_primary_color() {
 }
 
 base_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+wallpapers_dir="$base_dir/wallpapers"
+mkdir -p "$wallpapers_dir"
 
 # Template metadata.json
 template='{
@@ -129,4 +131,7 @@ EOF
 }
 EOF
     fi
+    dest="$wallpapers_dir/$dir_name"
+    rm -rf "$dest"
+    cp -a "$dir" "$dest"
 done
