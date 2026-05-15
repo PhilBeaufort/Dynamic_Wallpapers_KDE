@@ -1,6 +1,7 @@
 # Light/Dark Wallpapers
 
 This repository contains KDE wallpaper folders and a helper script to convert and install them locally.
+The wallpaper used are from this repo: https://github.com/manishprivet/dynamic-gnome-wallpapers
 
 ## Use the existing wallpapers
 
@@ -34,6 +35,7 @@ sudo apt install imagemagick
 4. The converted wallpaper folders are moved into `wallpapers/` inside this repository.
 
 ## With User interface
+Source: https://github.com/DenysMb/KDE-DynamicThemeGenerator
 
 Run this script
 
