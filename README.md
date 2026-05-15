@@ -26,7 +26,7 @@ sudo apt install imagemagick
 
 ## 1. Script with User interface
 You will be prompted for the wallpaper name and images to create a kde dynamic wallpaper
-Source: https://github.com/DenysMb/KDE-DynamicThemeGenerator
+- Source: https://github.com/DenysMb/KDE-DynamicThemeGenerator
 
 Run this script
 
