@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Script to create KDE light/dark wallpaper config for folders with 2 images
+# Moves processed wallpaper folders into the wallpapers/ directory
 
 set -euo pipefail
 
@@ -45,7 +46,7 @@ template='{
     }
 }'
 
-shopt -s nullglob
+shopt -s nullglob nocaseglob
 
 for dir in "$base_dir"/*/; do
     dir_name=$(basename "$dir")
@@ -54,7 +55,7 @@ for dir in "$base_dir"/*/; do
     fi
 
     image_files=()
-    for ext in jpg jpeg png gif bmp webp; do
+    for ext in jpg jpeg png gif bmp webp svg; do
         for f in "$dir"/*.$ext; do
             [ -f "$f" ] && image_files+=("$f")
         done
@@ -133,5 +134,5 @@ EOF
     fi
     dest="$wallpapers_dir/$dir_name"
     rm -rf "$dest"
-    cp -a "$dir" "$dest"
+    mv "$dir" "$dest"
 done
