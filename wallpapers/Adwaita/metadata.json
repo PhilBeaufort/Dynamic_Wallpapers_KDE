@@ -1,0 +1,12 @@
+{
+    "KPlugin": {
+        "Authors": [{"Name": "Shrunk"}],
+        "Id": "Adwaita",
+        "License": "CC-BY-SA-4.0",
+        "Name": "Adwaita"
+    },
+    "X-KDE-PlasmaImageWallpaper-AccentColor": {
+        "Dark": "#021138",
+        "Light": "#149acd"
+    }
+}

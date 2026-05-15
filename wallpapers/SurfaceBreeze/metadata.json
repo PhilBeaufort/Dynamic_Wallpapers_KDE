@@ -1,0 +1,12 @@
+{
+    "KPlugin": {
+        "Authors": [{"Name": "Shrunk"}],
+        "Id": "SurfaceBreeze",
+        "License": "CC-BY-SA-4.0",
+        "Name": "SurfaceBreeze"
+    },
+    "X-KDE-PlasmaImageWallpaper-AccentColor": {
+        "Dark": "#3e3442",
+        "Light": "#aab9c8"
+    }
+}

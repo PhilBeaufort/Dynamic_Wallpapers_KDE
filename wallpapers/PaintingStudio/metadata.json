@@ -1,0 +1,12 @@
+{
+    "KPlugin": {
+        "Authors": [{"Name": "Shrunk"}],
+        "Id": "PaintingStudio",
+        "License": "CC-BY-SA-4.0",
+        "Name": "PaintingStudio"
+    },
+    "X-KDE-PlasmaImageWallpaper-AccentColor": {
+        "Dark": "#52392b",
+        "Light": "#50493a"
+    }
+}

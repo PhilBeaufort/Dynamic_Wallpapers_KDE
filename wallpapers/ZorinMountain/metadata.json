@@ -1,0 +1,12 @@
+{
+    "KPlugin": {
+        "Authors": [{"Name": "Shrunk"}],
+        "Id": "ZorinMountain",
+        "License": "CC-BY-SA-4.0",
+        "Name": "ZorinMountain"
+    },
+    "X-KDE-PlasmaImageWallpaper-AccentColor": {
+        "Dark": "#212d42",
+        "Light": "#8ea8c6"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "KPlugin": {
+        "Authors": [{"Name": "Shrunk"}],
+        "Id": "BigSurV2",
+        "License": "CC-BY-SA-4.0",
+        "Name": "BigSurV2"
+    },
+    "X-KDE-PlasmaImageWallpaper-AccentColor": {
+        "Dark": "#492a4a",
+        "Light": "#89698a"
+    }
+}

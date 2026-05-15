@@ -1,0 +1,12 @@
+{
+    "KPlugin": {
+        "Authors": [{"Name": "Shrunk"}],
+        "Id": "Surface",
+        "License": "CC-BY-SA-4.0",
+        "Name": "Surface"
+    },
+    "X-KDE-PlasmaImageWallpaper-AccentColor": {
+        "Dark": "#2d3e63",
+        "Light": "#b09296"
+    }
+}

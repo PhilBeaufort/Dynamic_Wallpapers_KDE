@@ -1,0 +1,12 @@
+{
+    "KPlugin": {
+        "Authors": [{"Name": "Shrunk"}],
+        "Id": "Fluent",
+        "License": "CC-BY-SA-4.0",
+        "Name": "Fluent"
+    },
+    "X-KDE-PlasmaImageWallpaper-AccentColor": {
+        "Dark": "#134181",
+        "Light": "#79b1e0"
+    }
+}
