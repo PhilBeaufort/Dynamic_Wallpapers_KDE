@@ -13,7 +13,7 @@ mkdir -p ~/.local/share/wallpapers
 cp -r wallpapers/* ~/.local/share/wallpapers/
 ```
 
-## Requirements
+## Requirements for script
 
 ### Ubuntu / Kubuntu / Debian setup
 
@@ -24,7 +24,18 @@ sudo apt update
 sudo apt install imagemagick
 ```
 
-## How to use
+## 1. Script with User interface
+You will be prompted for the wallpaper name and images to create a kde dynamic wallpaper
+Source: https://github.com/DenysMb/KDE-DynamicThemeGenerator
+
+Run this script
+
+```bash
+bash dth.sh
+```
+
+## 2. How to use repo script
+Create a kde dynamic wallpaper in this repo
 
 1. Create a folder with the desired wallypaper name
 2. Add 2 images to the folder for light/dark, file name must end by `0` for light and `1` for dark
@@ -33,15 +44,6 @@ sudo apt install imagemagick
         bash setup_wallpaper.sh
     ```
 4. The converted wallpaper folders are moved into `wallpapers/` inside this repository.
-
-## With User interface
-Source: https://github.com/DenysMb/KDE-DynamicThemeGenerator
-
-Run this script
-
-```bash
-bash dth.sh
-```
 
 ## Notes
 
